@@ -53,3 +53,5 @@ $RECYCLE.BIN/
 .history/
 IlluminatedCloud/
 auth.json
+/force-app/main/default/externalCredentials
+/force-app/main/default/namedCredentials
