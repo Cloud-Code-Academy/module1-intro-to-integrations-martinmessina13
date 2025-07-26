@@ -13,6 +13,9 @@ public class JSONPlaceholderMock implements HttpCalloutMock {
         res.setStatusCode(this.statusCode);
         res.setBody(this.responseBody);
         res.setHeader('Content-Type', 'application/json');
+        if(this.statusCode == 400){ // Added to unit test exceptions
+            res.setStatus('Error');
+        }
         return res;
     }
     
@@ -55,4 +58,4 @@ public class JSONPlaceholderMock implements HttpCalloutMock {
             + '"body": "Original body remains unchanged"'
             + '}';
     }
-} 
+}
