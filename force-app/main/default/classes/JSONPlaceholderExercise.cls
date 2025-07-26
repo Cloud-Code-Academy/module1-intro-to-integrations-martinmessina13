@@ -1,8 +1,6 @@
 // Content-Type header is set to "application/json" directly in the JSONPlaceholder Named Credential 
 public class JSONPlaceholderExercise {
 
-    public class PostServiceException extends Exception{}
-
     private static final String BASE_URL = 'callout:JSONPlaceholder'; // Only should be visible to class itself
     
     /**
@@ -241,4 +239,6 @@ public class JSONPlaceholderExercise {
         public String title;	
         public String body;
     }
+
+    public class PostServiceException extends Exception{}
 } 
