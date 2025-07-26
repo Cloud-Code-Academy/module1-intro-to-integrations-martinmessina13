@@ -195,7 +195,7 @@ public class JSONPlaceholderExerciseTest {
         }
         catch(JSONPlaceholderExercise.PostServiceException e){
             // Assert
-            Assert.areEqual('Error', e.getMessage(), 'The post service call should result in error');
+            Assert.areEqual('Error', e.getMessage(), 'The post service call should result in error status');
         }        
     }
 
@@ -210,7 +210,7 @@ public class JSONPlaceholderExerciseTest {
         }
         catch(JSONPlaceholderExercise.PostServiceException e){
             // Assert
-            Assert.areEqual('Error', e.getMessage(), 'The post service call should result in error');
+            Assert.areEqual('Error', e.getMessage(), 'The post service call should result in error status');
         }  
     }
     
@@ -225,7 +225,7 @@ public class JSONPlaceholderExerciseTest {
         }
         catch(JSONPlaceholderExercise.PostServiceException e){
             // Assert
-            Assert.areEqual('Error', e.getMessage(), 'The post service call should result in error');
+            Assert.areEqual('Error', e.getMessage(), 'The post service call should result in error status');
         } 
     }
     
@@ -240,7 +240,7 @@ public class JSONPlaceholderExerciseTest {
         }
         catch(JSONPlaceholderExercise.PostServiceException e){
             // Assert
-            Assert.areEqual('Error', e.getMessage(), 'The post service call should result in error');
+            Assert.areEqual('Error', e.getMessage(), 'The post service call should result in error status');
         } 
     }
     
@@ -255,7 +255,7 @@ public class JSONPlaceholderExerciseTest {
         }
         catch(JSONPlaceholderExercise.PostServiceException e){
             // Assert
-            Assert.areEqual('Error', e.getMessage(), 'The post service call should result in error');
+            Assert.areEqual('Error', e.getMessage(), 'The post service call should result in error status');
         }
     }
 } 
